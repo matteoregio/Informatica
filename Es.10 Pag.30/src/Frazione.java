@@ -8,9 +8,10 @@ public class Frazione {
     }
 
     public Frazione(int n, int d){
-        if(this.d == 0){
-            this.d = 1;
+        if(d == 0){
+            d = 1;
         }
+        this.d = d;
         this.n = n;
     }
 
@@ -111,3 +112,4 @@ public class Frazione {
         }
     }
 }
+
