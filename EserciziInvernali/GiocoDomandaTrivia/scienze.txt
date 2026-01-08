@@ -1,0 +1,3 @@
+Qual e il simbolo chimico dell'ossigeno?;Os;Ox;O;H;3
+Quale pianeta e chiamato il 'Pianeta Rosso'?;Venere;Giove;Marte;Saturno;3
+Qual e l'organo principale del sistema circolatorio?;Polmoni;Cervello;Cuore;Fegato;3

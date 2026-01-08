@@ -1,0 +1,3 @@
+Qual e la capitale della Francia?;Lione;Marsiglia;Parigi;Nizza;3
+Chi ha scritto la Divina Commedia?;Petrarca;Dante Alighieri;Boccaccio;Ariosto;2
+Qual e l'oceano piu grande del mondo?;Atlantico;Indiano;Pacifico;Artico;3

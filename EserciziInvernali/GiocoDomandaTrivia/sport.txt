@@ -1,0 +1,3 @@
+Quanti giocatori ha una squadra di calcio?;11;5;7;15;1
+Ogni quanti anni si giocano le Olimpiadi?;2;4;5;6;2
+In quale sport si usa il termine 'canestro'?;Tennis;Pallavolo;Basket;Rugby;3

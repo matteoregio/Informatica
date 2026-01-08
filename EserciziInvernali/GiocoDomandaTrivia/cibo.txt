@@ -1,0 +1,3 @@
+Qual e l'ingrediente base del pesto alla genovese?;Prezzemolo;Basilico;Salvia;Menta;2
+Quale frutto viene usato per fare il vino?;Mela;Pera;Uva;Pesca;3
+Qual e il cereale piu usato per fare la pasta?;Riso;Farro;Grano;Mais;3
