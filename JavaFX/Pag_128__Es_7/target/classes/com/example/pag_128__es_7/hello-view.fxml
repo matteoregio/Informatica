@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="388.0" prefWidth="322.0" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pag_128__es_7.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="lblOperazione" text="0">
+      <font>
+         <Font size="70.0" />
+      </font></Label>
+   <Label fx:id="lblErrore" textFill="RED" />
+   <Label text="Inserisci due numeri">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Label>
+   <TextField fx:id="txtn1" />
+   <TextField fx:id="txtn2" />
+   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <Button contentDisplay="BOTTOM" mnemonicParsing="false" onAction="#onPiuButtonClick" text="+" textAlignment="CENTER">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Button>
+          <Button onAction="#onMenoButtonClick" text="-">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Button>
+         <Button mnemonicParsing="false" onAction="#onPerButtonClick" text="*">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Button>
+         <Button mnemonicParsing="false" onAction="#onDivisoButtonClick" text="/">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Button>
+      </children>
+   </HBox>
+</VBox>
