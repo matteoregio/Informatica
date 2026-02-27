@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="483.0" prefWidth="478.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" fx:controller="com.example.codicefiscale.CodiceFiscaleController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label text="Calcola CodiceFiscale">
+      <font>
+         <Font size="31.0" />
+      </font>
+   </Label>
+   <AnchorPane prefHeight="243.0" prefWidth="438.0">
+      <children>
+         <Label fx:id="welcomeText1" layoutX="14.0" layoutY="14.0" text="Nome:">
+            <font>
+               <Font size="19.0" />
+            </font>
+         </Label>
+         <Label fx:id="welcomeText11" layoutX="16.0" layoutY="149.0" text="Sesso:">
+            <font>
+               <Font size="19.0" />
+            </font>
+         </Label>
+         <Label fx:id="welcomeText12" layoutX="14.0" layoutY="101.0" text="Data:">
+            <font>
+               <Font size="19.0" />
+            </font>
+         </Label>
+         <Label fx:id="welcomeText13" layoutX="14.0" layoutY="59.0" text="Cognome">
+            <font>
+               <Font size="19.0" />
+            </font>
+         </Label>
+         <TextField fx:id="nome" layoutX="97.0" layoutY="16.0" />
+         <TextField fx:id="cognome" layoutX="123.0" layoutY="60.0" />
+         <DatePicker fx:id="data" layoutX="86.0" layoutY="102.0" />
+         <ChoiceBox fx:id="sesso" layoutX="98.0" layoutY="150.0" prefWidth="150.0" />
+         <Label fx:id="welcomeText131" layoutX="14.0" layoutY="201.0" text="Luogo di nascita:">
+            <font>
+               <Font size="19.0" />
+            </font>
+         </Label>
+         <TextField fx:id="luogo" layoutX="190.0" layoutY="202.0" />
+      </children>
+   </AnchorPane>
+   <Label fx:id="cod">
+      <font>
+         <Font size="21.0" />
+      </font>
+   </Label>
+    <Button onAction="#onCalcolaButtonClick" text="Calcola" />
+</VBox>
